@@ -4,14 +4,29 @@ site_url: https://sabesanhariR.github.io
 theme:
   name: material
   palette:
-    scheme: default
-    primary: indigo       # change to any color you like
-    accent: indigo
+    - scheme: default        # light mode
+      primary: indigo        # navbar & header color
+      accent: indigo         # hover & link highlight color
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate          # dark mode
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter              # body font (Google Fonts, free)
+    code: Roboto Mono        # code block font
   features:
-    - navigation.tabs     # top-level sections as tabs
-    - navigation.indexes  # folder index pages work as section homepages
-    - search.suggest      # autocomplete in search bar
-    - toc.follow          # table of contents follows scroll
+    - navigation.tabs          # top-level sections as tabs
+    - navigation.indexes       # section folder pages work
+    - navigation.top           # "back to top" button
+    - search.suggest           # search autocomplete
+    - search.highlight         # highlights search terms on page
+    - content.code.copy        # copy button on code blocks
+    - toc.follow               # TOC follows your scroll
 
 nav:
   - Home: index.md
@@ -23,7 +38,6 @@ nav:
   - Life:
     - life/landing_page.md
 
-  
 extra:
   generator: false
 
