@@ -1,0 +1,39 @@
+site_name: NAME TBD
+site_url: https://sabesanhariR.github.io
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo       # change to any color you like
+    accent: indigo
+  features:
+    - navigation.tabs     # top-level sections as tabs
+    - navigation.indexes  # folder index pages work as section homepages
+    - search.suggest      # autocomplete in search bar
+    - toc.follow          # table of contents follows scroll
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Career:
+    - career/landing_page.md
+  - Networking:
+    - networking/landing_page.md
+  - Life:
+    - life/landing_page.md
+
+  
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/sabesanhari
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:sabesanhari.r@gmail.com
+      name: Gmail
+    - icon: fontawesome/brands/github
+      link: https://github.com/sabesanhariR
+      name: GitHub
