@@ -1,7 +1,7 @@
-# Welcome to _SiteName TBD_
+# Welcome to Sabesh's World!
 
 ### Who am I?
-Will be filled as we go 
+Just a fellow homo-sapien trying to spread the outcomes that arise as a result of the energy flow happening in the least understood part of the human body.
 
 ### What am I doing now?
 Trying to fill boredom and frustration by sharing my knowledge to the wider audience - in the hopes of changing a few lives...LoL
